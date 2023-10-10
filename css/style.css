@@ -34,6 +34,7 @@ header {
     line-height: 30px;
     margin: 32px 0px;
     max-width: 634px;
+    text-align: left;
 
 }
 
@@ -47,4 +48,287 @@ header {
     border-radius: 8px;
     background: #E55473;
     border: 1px solid #E55473;
+}
+
+section.featureSection {
+    margin: 178px 240px 128px 240px;
+}
+
+.futureText {
+    text-align: center;
+}
+
+.futureText h4 {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.futurePara {
+    display: flex;
+    justify-content: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.futurePara p {
+    max-width: 594px;
+    ;
+}
+
+.futureFlower {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.flower1 {
+    display: flex;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 78px;
+}
+
+.flower2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 117px 47px 51px 47px;
+}
+
+.flower3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    display: flex;
+    justify-content: baseline;
+    padding: 67px 75px 0px 75px;
+}
+
+.futureSubTitles {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.subTitles {
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding: 0px 141px;
+    text-align: center;
+}
+
+.deliverySection {
+    margin: 128px 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 86px 175px;
+}
+
+.deliverySection p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.saleSection {
+    display: flex;
+    padding: 100px 429px 100px 395px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.saleContent {
+    padding: 130px 186px 162px 28px;
+    text-align: center;
+}
+
+.saleContent h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.saleContent p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 594px;
+    margin-bottom: 32px;
+
+}
+
+.off {
+    color: #E55473
+}
+
+.btnSignUp {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 43px;
+    border: 1px solid #E55473;
+}
+
+.insta {
+    margin: 128px 240px;
+}
+
+.insta h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.instaText {
+    display: flex;
+    justify-content: center;
+}
+
+.insta p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 594px;
+    padding: 24px 0 48px 0;
+
+}
+
+.instaImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.latestDeal {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 240px 128px 240px;
+    padding: 122px 0 122px 0px;
+    text-align: center;
+
+}
+
+.latestDeal h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.latestDeal p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* padding: 16px 0px 48px 0px; */
+}
+
+.emailSubs input[type=text],
+select {
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 513px 20px 20px;
+    outline: none;
+    border: 1px solid #EBEEEF;
+}
+
+.btnSub {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 29px 18px 31px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 1px solid #E55473;
+}
+
+section.contact {
+    background-color: #000;
+    color: #fff;
+    padding: 128px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contactDetails h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.contactDetails p.bottomline {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 625px;
+}
+
+p.copyright {
+    color: rgba(255, 255, 255, 0.40);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
